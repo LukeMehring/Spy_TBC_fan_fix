@@ -94,7 +94,7 @@ Spy.options = {
 						Spy:ZoneChangedEvent()
 					end,
 				},
---[[				EnabledInArenas = {
+				EnabledInArenas = {
 					name = L["EnabledInArenas"],
 					desc = L["EnabledInArenasDescription"],
 					type = "toggle",
@@ -108,7 +108,7 @@ Spy.options = {
 						Spy:ZoneChangedEvent()
 					end,
 				},
-				EnabledInWintergrasp = {
+--[[				EnabledInWintergrasp = {
 					name = L["EnabledInWintergrasp"],
 					desc = L["EnabledInWintergraspDescription"],
 					type = "toggle",
@@ -153,8 +153,8 @@ Spy.options = {
 						["Gadgetzan"] = L["Gadgetzan"],
 						["Ratchet"] = L["Ratchet"],
 						["The Salty Sailor Tavern"] = L["The Salty Sailor Tavern"],
---						["Shattrath City"] = L["Shattrath City"],
---						["Area 52"] = L["Area 52"],
+						["Shattrath City"] = L["Shattrath City"],
+						["Area 52"] = L["Area 52"],
 --						["Dalaran"] = L["Dalaran"],
 --						["Dalaran (Northrend)"] = L["Dalaran (Northrend)"],
 --						["Bogpaddle"] = L["Bogpaddle"],
@@ -751,7 +751,7 @@ Spy.options = {
 								["Dwarf"] = L["Dwarf"],		
 								["Night Elf"] = L["Night Elf"],			
 								["Gnome"] = L["Gnome"],	
---								["Draenei"] = L["Draenei"],
+								["Draenei"] = L["Draenei"],
 --								["Worgen"] = L["Worgen"],
 --								["Pandaren"] = L["Pandaren"],	
 --								["Lightforged Draenei"] = L["Lightforged Draenei"],
@@ -766,7 +766,7 @@ Spy.options = {
 								["Tauren"] = L["Tauren"],
 								["Troll"] = L["Troll"],	
 								["Undead"] = L["Undead"],				
---								["Blood Elf"] = L["Blood Elf"],
+								["Blood Elf"] = L["Blood Elf"],
 --								["Goblin"] = L["Goblin"],			
 --								["Pandaren"] = L["Pandaren"],
 --								["Highmountain Tauren"] = L["Highmountain Tauren"],
@@ -1427,7 +1427,7 @@ local Default_Profile = {
 			["Ratchet"] = false,
 			["Everlook"] = false,
 			["The Salty Sailor Tavern"] = false,
---			["Shattrath City"] = false,
+			["Shattrath City"] = false,
 --			["Area 52"] = false,
 --			["Dalaran"] = false,
 --			["Dalaran (Northrend)"] = false,
@@ -1777,8 +1777,8 @@ function Spy:OnInitialize()
 		["NightElf"] = true,
 		["Scourge"] = true,		
 		["Gnome"] = true,
---		["BloodElf"] = true,		
---		["Draenei"] = true,
+		["BloodElf"] = true,		
+		["Draenei"] = true,
 --		["Goblin"] = true,		
 --		["Worgen"] = true,
 --		["Pandaren"] = true,
